@@ -8,6 +8,8 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.7.9",
     "bootstrap": "^5.3.3",
+    "datatables.net": "^2.1.8",
+    "datatables.net-bs5": "^2.1.8",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-scripts": "5.0.1",
