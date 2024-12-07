@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# Projeto-Integrador-Programa-o-Web - Reclamações Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto Integrador: Programação Web - Disciplina 28130
 
-## Available Scripts
+Este é o frontend do sistema de cadastro de reclamações. Ele foi desenvolvido utilizando **React** com estilização baseada no **Bootstrap**, permitindo aos usuários cadastrarem e visualizarem reclamações.
 
-In the project directory, you can run:
+## Funcionalidades
 
-### `npm start`
+- Formulário para cadastro de reclamações.
+- Tabela dinâmica para exibição das reclamações registradas.
+- Comunicação com o backend utilizando Axios.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Requisitos
 
-### `npm test`
+Antes de começar, certifique-se de ter as seguintes ferramentas instaladas:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Node.js** (versão 14 ou superior)
+- **NPM** (gerenciador de pacotes do Node.js)
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Como Executar
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Siga os passos abaixo para configurar e executar o frontend:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 1. Clone o Repositório
 
-### `npm run eject`
+Se você ainda não clonou o repositório, faça isso com o comando:
+```bash
+git clone <URL_DO_REPOSITORIO>
+cd integrador-web-frontend
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 2. Instale as Dependências
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+No diretório do frontend, instale as dependências necessárias com o comando:
+```bash
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 3. Execute o Servidor de Desenvolvimento
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Inicie o servidor de desenvolvimento com o comando:
+```bash
+npm start
+```
 
-## Learn More
+O frontend será iniciado e estará disponível em:  
+`http://localhost:3000`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Estrutura do Projeto
 
-### Code Splitting
+```
+reclamacoes-frontend/
+├── src/
+│   ├── App.js         # Arquivo principal do React
+│   ├── index.js       # Ponto de entrada do React
+│   └── ... (outros arquivos)
+├── public/
+│   ├── index.html     # HTML principal
+│   └── ... (outros arquivos)
+├── package.json       # Configuração do projeto React
+├── node_modules/      # Dependências do projeto
+└── ... (outros arquivos e pastas)
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## Tecnologias Utilizadas
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **React.js**: Framework JavaScript para criação de interfaces de usuário.
+- **Bootstrap**: Framework CSS para estilização.
+- **Axios**: Biblioteca para realizar requisições HTTP.
